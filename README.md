@@ -15,8 +15,8 @@ For the first stage, you will write a bot who displays a greeting, its name and 
 
 Your program should print the following lines:
 
-Hello! My name is {botName}.
-I was created in {birthYear}.
+    Hello! My name is {botName}.
+    I was created in {birthYear}.
 
 Instead of  {botName}  print any name you choose and replace  {birthYear}  with the current year (four digits).
 
@@ -45,10 +45,10 @@ At this stage, you will introduce yourself to the bot so that it can greet you b
 
 Your program should print the following lines:
 
-Hello! My name is Aid.
-I was created in 2020.
-Please, remind me your name.
-What a great name you have, {yourName}!
+    Hello! My name is Aid.
+    I was created in 2020.
+    Please, remind me your name.
+    What a great name you have, {yourName}!
 
 You may change the name and the creation year of your bot if you want.
 
@@ -60,11 +60,11 @@ The greater-than symbol followed by space (> ) represents the user input. Notice
 
 **Example 1:**  _a dialogue with the bot_
 
-Hello! My name is Aid.
-I was created in 2020.
-Please, remind me your name.
-> Max
-What a great name you have, Max!
+    Hello! My name is Aid.
+    I was created in 2020.
+    Please, remind me your name.
+    > Max
+    What a great name you have, Max!
 
 Use the provided template to simplify your work. You can change the text, but not the number of printed lines.
 
@@ -90,13 +90,13 @@ At this stage, you will introduce yourself to the bot. It will greet you by your
 
 Your program should print the following lines:
 
-Hello! My name is Aid.
-I was created in 2020.
-Please, remind me your name.
-What a great name you have, Max!
-Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
-Your age is {yourAge}; that's a good time to start programming!
+    Hello! My name is Aid.
+    I was created in 2020.
+    Please, remind me your name.
+    What a great name you have, Max!
+    Let me guess your age.
+    Enter remainders of dividing your age by 3, 5 and 7.
+    Your age is {yourAge}; that's a good time to start programming!
 
 Read three numbers from the standard input. Assume that all the numbers will be given on separate lines.
 
@@ -134,30 +134,29 @@ The greater-than symbol followed by space (> ) represents the user input. Notice
 
 Example 1: a dialogue with the new version of the bot
 
-Hello! My name is Aid.
-I was created in 2020.
-Please, remind me your name.
-> Max
-What a great name you have, Max!
-Let me guess your age.
-Say me remainders of dividing your age by 3, 5 and 7.
-> 1
-> 2
-> 1
-Your age is 22; that's a good time to start programming!
-Now I will prove to you that I can count to any number you want.
-> 5
-0!
-1!
-2!
-3!
-4!
-5!
-Completed, have a nice day!
+    Hello! My name is Aid.
+    I was created in 2020.
+    Please, remind me your name.
+    > Max
+    What a great name you have, Max!
+    Let me guess your age.
+    Say me remainders of dividing your age by 3, 5 and 7.
+    > 1
+    > 2
+    > 1
+    Your age is 22; that's a good time to start programming!
+    Now I will prove to you that I can count to any number you want.
+    > 5
+    0!
+    1!
+    2!
+    3!
+    4!
+    5!
+    Completed, have a nice day!
 Note: each number starts with a new line, and after a number, the bot should print the exclamation mark.
 
 Use the provided template to simplify your work. You can change the text if you want, but be especially careful when counting numbers.
-
 
 
 # Stage 5/5: The student and the teacher
@@ -188,31 +187,33 @@ The greater-than symbol followed by space (> ) represents the user input. Notice
 Hello! My name is Aid.
 I was created in 2020.
 Please, remind me your name.
-> Max
-What a great name you have, Max!
-Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
-> 1
-> 2
-> 1
-Your age is 22: that's a good time to start programming!
-Now I will prove to you that I can count to any number you want.
-> 3
-0!
-1!
-2!
-3!
-Let's test your programming knowledge.
-Why do we use methods?
-1. To repeat a statement multiple times.
-2. To decompose a program into several small subroutines.
-3. To determine the execution time of a program.
-4. To interrupt the execution of a program.
-> 4
-Please, try again.
-> 2
-Congratulations, have a nice day!
+
+    > Max
+    What a great name you have, Max!
+    Let me guess your age.
+    Enter remainders of dividing your age by 3, 5 and 7.
+    > 1
+    > 2
+    > 1
+    Your age is 22: that's a good time to start programming!
+    Now I will prove to you that I can count to any number you want.
+    > 3
+    0!
+    1!
+    2!
+    3!
+    Let's test your programming knowledge.
+    Why do we use methods?
+    1. To repeat a statement multiple times.
+    2. To decompose a program into several small subroutines.
+    3. To determine the execution time of a program.
+    4. To interrupt the execution of a program.
+    > 4
+    Please, try again.
+    > 2
+    Congratulations, have a nice day!
 
 The program must end with the  **Congratulations, have a nice day!**  message.
 
 Use the provided template to simplify your work. You can change the text if you want. Please note that we use functions to make it easy to understand the program and add new code to it or edit later.
+
