@@ -216,4 +216,5 @@ The program must end with the  **Congratulations, have a nice day!**  message.
 
 Use the provided template to simplify your work. You can change the text if you want. Please note that we use functions to make it easy to understand the program and add new code to it or edit later.
 
-
+<<<<<<< HEAD
+>>>>>>> 173a62e7b9c7a10574a547f4742fe1ff0e5c6869
