@@ -24,8 +24,8 @@ Instead of  {botName}  print any name you choose and replace  {birthYear}  with 
 
 Output:
 
-Hello! My name is Aid.
-I was created in 2020.
+    Hello! My name is Aid.
+    I was created in 2020.
 
 You can change the text if you want but print exactly two lines.
 
@@ -69,7 +69,6 @@ The greater-than symbol followed by space (> ) represents the user input. Notice
 Use the provided template to simplify your work. You can change the text, but not the number of printed lines.
 
 
-
 # Stage 3/5: How old are you?
 
 ## Description
@@ -78,7 +77,7 @@ Keep improving your bot by developing new skills for it. We suggest a simple gue
 
 It's based on a simple math trick. First, take a look at this formula:
 
-age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
+    age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 
 The numbersremainder3,  remainder5  and  remainder7  are the remainders of division by 3, 5 and 7 respectively.
 
@@ -108,17 +107,17 @@ The greater-than symbol followed by space (> ) represents the user input. Notice
 
 **Example 1:**  _a dialogue with the bot_
 
-Hello! My name is Aid.
-I was created in 2020.
-Please, remind me your name.
-> Max
-What a great name you have, Max!
-Let me guess your age.
-Enter remainders of dividing your age by 3, 5 and 7.
-> 1
-> 2
-> 1
-Your age is 22; that's a good time to start programming!
+    Hello! My name is Aid.
+    I was created in 2020.
+    Please, remind me your name.
+    > Max
+    What a great name you have, Max!
+    Let me guess your age.
+    Enter remainders of dividing your age by 3, 5 and 7.
+    > 1
+    > 2
+    > 1
+    Your age is 22; that's a good time to start programming!
 
 Use the provided template to simplify your work. You can change the text, but not the number of printed lines.
 
